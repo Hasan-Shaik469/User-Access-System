@@ -12,6 +12,7 @@ A full-stack application built with **React**, **Node.js**, **TypeScript**, **Ex
 - PostgreSQL database with TypeORM
 
 ## 📁 Project Structure
+```bash
 User-access-system/
 ├── frontend/ # React App
 │ ├── src/
@@ -29,6 +30,7 @@ User-access-system/
 │ ├── .env
 │ ├── tsconfig.json
 │ └── package.json
+```
 
 ---
 ## 🚀 Getting Started
