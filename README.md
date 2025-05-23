@@ -1,8 +1,8 @@
-# 🧑‍💻 User Access Management System
+#  User Access Management System
 
 A full-stack application built with **React**, **Node.js**, **TypeScript**, **Express**, and **TypeORM** to manage user access to software based on roles: `Admin`, `Manager`, and `Employee`.
 
-## 🔧 Features
+##  Features
 - Sign up & Login with JWT authentication
 - Role-based routing:
   - **Admin**: Add software and assign access levels
@@ -11,20 +11,20 @@ A full-stack application built with **React**, **Node.js**, **TypeScript**, **Ex
 - Persistent sessions using localStorage
 - PostgreSQL database with TypeORM
 
-## 📁 Project Structure
+##  Project Structure
 ```bash
 User-access-system/
-├── frontend/ # React App
+├── frontend/
 │ ├── src/
-│ │ ├── pages/ # Signup, Login, RequestAccess, CreateSoftware, PendingRequests
+│ │ ├── pages/ 
 │ │ └── App.jsx
 │ └── package.json
-├── backend/ # Node.js + Express + TypeORM
+├── backend/ 
 │ ├── src/
-│ │ ├── controllers/ # auth.ts, request.ts, software.ts
-│ │ ├── entities/ # User.ts, Software.ts, Request.ts
-│ │ ├── middleware/ # auth.ts
-│ │ ├── routes/ # auth.ts, request.ts, software.ts
+│ │ ├── controllers/ 
+│ │ ├── entities/
+│ │ ├── middleware/
+│ │ ├── routes/
 │ │ ├── data-source.ts
 │ │ └── index.ts
 │ ├── .env
@@ -33,14 +33,14 @@ User-access-system/
 ```
 
 ---
-## 🚀 Getting Started
+##  Getting Started
 
-### 🛠️ Prerequisites
+###  Prerequisites
 - Node.js
 - PostgreSQL
 - npm
 
-### 📦 Backend Setup
+## Backend Setup
 ```bash
 cd backend
 npm install
